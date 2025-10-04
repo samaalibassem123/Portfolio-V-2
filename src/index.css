@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Vollkorn:ital@0;1&display=swap');
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+
+
+@theme{
+  --font-manrope:"Manrope",sans-serif;
+  --font-vollkorn: "Vollkorn", serif;
+}
+
+@layer base {
+  ::selection {
+    @apply bg-black text-white;
+  }
+}
+
+.loader{
+  @apply flex items-center justify-center bg-black backdrop-blur-3xl z-60 absolute top-0 left-0 w-full h-svh text-white font-manrope sm:text-9xl text-7xl ;
+}
