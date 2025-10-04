@@ -1,39 +1,22 @@
-interface Links {
-  label: string;
-  url: string;
-}
-const links: Links[] = [
-  {
-    label: "Experience",
-    url: "/experience",
-  },
-  {
-    label: "Personal Projects",
-    url: "/projects",
-  },
-  {
-    label: "Education",
-    url: "/education",
-  },
-];
+import { useState } from "react";
+import NavMenu from "./NavMenu";
+import { AnimatePresence } from "motion/react";
 
 export default function Menu() {
+  const [navmenu, setNavMenu] = useState<boolean>(false);
+
   return (
     <>
-      <div className="flex gap-2 items-center cursor-pointer">
+      <button
+        className="flex gap-2 items-center cursor-pointer"
+        onClick={() => setNavMenu(true)}
+      >
         <span className=" font-manrope text-xl">Menu</span>
         <img src="/Menu.svg" alt="" />
-      </div>
-      <div className=" w-full h-full absolute top-0 left-0 bg-black/70 backdrop-blur-sm z-50">
-        {/*Left Side */}
-        <div>
-          {links.map((l)=>(
-            
-          ))}
-        </div>
-        {/*Right Side */}
-        <div></div>
-      </div>
+      </button>
+      <AnimatePresence mode="wait">
+        {navmenu && <NavMenu setNavMenu={setNavMenu} />}
+      </AnimatePresence>
     </>
   );
 }
