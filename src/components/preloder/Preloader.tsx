@@ -10,10 +10,6 @@ const AnimatePreloader = {
   },
   exit: {
     y: "-100svh",
-    transition: {
-      duration: 1,
-      ease: [0.76, 0, 0.24, 1],
-    },
   },
 };
 
@@ -40,6 +36,10 @@ export default function Preloader() {
       variants={AnimatePreloader}
       exit={"exit"}
       initial="initial"
+      transition={{
+        duration: 1,
+        ease: [0.76, 0, 0.24, 1],
+      }}
     >
       {fade && <p className=" motion-preset-focus ">{welcomeText[index]}</p>}
     </motion.div>

@@ -22,6 +22,10 @@ interface Links {
 
 const links: Links[] = [
   {
+    label: "Home",
+    url: "/",
+  },
+  {
     label: "Experience",
     url: "/experience",
   },
@@ -44,7 +48,7 @@ export default function NavMenu({ setNavMenu }: Props) {
       initial="hidden"
       animate={"enter"}
       exit={"exit"}
-      className=" flex lg:flex-row flex-col lg:items-center justify-around px-5  w-full h-full absolute top-0 right-0 bg-black/90 backdrop-blur-sm z-50 text-white"
+      className=" flex lg:flex-row flex-col lg:items-center justify-around px-5  w-full h-svh absolute top-0 right-0 z-50 bg-black/90 backdrop-blur-sm  text-white"
     >
       <button
         onClick={() => setNavMenu(false)}
@@ -53,18 +57,19 @@ export default function NavMenu({ setNavMenu }: Props) {
         close <X className=" size-8" />
       </button>
       {/*Left Side */}
-      <LeftSide />
+      <LeftSide setNavMenu={setNavMenu} />
       {/*Right Side */}
       <RightSide />
     </motion.div>
   );
 }
 
-const LeftSide = () => {
+const LeftSide = ({ setNavMenu }: { setNavMenu: (v: boolean) => void }) => {
   return (
     <div className="  flex flex-col gap-10 group">
       {links.map((l) => (
         <Link
+          onClick={() => setNavMenu(false)}
           to={l.url}
           key={l.url}
           className=" hover:scale-100 transition-all group-hover:scale-95 group-hover:text-gray-400 hover:text-white "

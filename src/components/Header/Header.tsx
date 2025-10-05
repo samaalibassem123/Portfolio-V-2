@@ -8,7 +8,7 @@ export default function Header({ children, className }: Props) {
   return (
     <header
       className={cn(
-        "  flex items-center justify-between sm:px-[110px] px-3 py-[35px] border-b border-black w-full",
+        "  flex items-center  bg-white/90 justify-between z-50 sm:px-[110px] px-3 py-[35px] border-b border-black w-full",
         className
       )}
     >
