@@ -3,7 +3,7 @@ import Title from "../ui/Title";
 
 export default function ExperienceSection() {
   return (
-    <div className=" h-fit relative pb-10 ">
+    <div className=" h-fit relative pb-10 z-10 ">
       <PageTitle>Experience</PageTitle>
       <div className=" flex sm:flex-row flex-col items-center  w-full z-10 text-black px-7 ">
         {/*Left side */}
