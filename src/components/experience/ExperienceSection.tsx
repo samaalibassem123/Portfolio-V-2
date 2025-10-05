@@ -3,7 +3,7 @@ import Title from "../ui/Title";
 
 export default function ExperienceSection() {
   return (
-    <div className=" h-fit relative pb-10">
+    <div className=" h-fit relative pb-10 will-change-[transform,filter] backface-hidden">
       <PageTitle>Experience</PageTitle>
       <div className=" flex z-30 sm:flex-row flex-col items-center  w-full  text-black px-7 ">
         {/*Left side */}
