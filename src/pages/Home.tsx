@@ -23,7 +23,7 @@ export default function Home() {
         >
           Follow Me On Github
         </a>
-        <HomeSection className=" h-full">
+        <HomeSection className=" h-full pt-3">
           <LeftSide />
           <RightSide />
         </HomeSection>
