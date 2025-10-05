@@ -14,7 +14,7 @@ export default function PageTransition({ children }: Props) {
   if (loading)
     return (
       <motion.div
-        className="w-full h-dvh text-center bg-black/95  absolute top-0 left-0 z-50 text-6xl text-white backdrop-blur-sm font-manrope flex items-center justify-center"
+        className="w-full h-lvh text-center bg-black/95  fixed top-0 left-0 z-50 text-6xl text-white backdrop-blur-sm font-manrope flex items-center justify-center"
         initial={{ opacity: 1 }}
         animate={{ opacity: 0 }}
         transition={{ delay: 1, duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
