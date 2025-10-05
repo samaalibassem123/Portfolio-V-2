@@ -5,7 +5,7 @@ export default function ExperienceSection() {
   return (
     <div className=" h-fit relative pb-10">
       <PageTitle>Experience</PageTitle>
-      <div className=" flex z-30 sm:flex-row flex-col items-center  w-full z-10 text-black px-7 ">
+      <div className=" flex z-30 sm:flex-row flex-col items-center  w-full  motion-blur-in-0 text-black px-7 ">
         {/*Left side */}
         <div className=" flex sm:flex-1  flex-col gap-7 bg-white">
           <Title className=" font-manrope font-bold">
@@ -57,7 +57,7 @@ export default function ExperienceSection() {
         </div>
       </div>
       <div className="w-[1px] h-[100px] bg-black mx-7  top-10 sm:rotate-0  rotate-90"></div>
-      <div className=" z-30 flex sm:flex-row flex-col items-center  w-full z-10 text-black px-7   ">
+      <div className=" z-30 flex sm:flex-row flex-col items-center  w-full  text-black px-7    motion-blur-in-0">
         {/*Left side */}
         <div className=" flex flex-1  flex-col gap-7 bg-white">
           <Title className=" font-manrope font-bold">
