@@ -9,7 +9,7 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Header from "./components/Header/Header";
 import Logo from "./components/Header/Logo";
-import DownLoadCv from "./components/Header/DownLoadCv";
+
 import Menu from "./components/Header/Menu";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         <div className="flex flex-col h-svh w-full">
           <Header>
             <Logo />
-            <DownLoadCv />
+
             <Menu />
           </Header>
           <AnimatePresence mode="wait">
