@@ -48,7 +48,7 @@ export default function NavMenu({ setNavMenu }: Props) {
       initial="hidden"
       animate={"enter"}
       exit={"exit"}
-      className=" flex lg:flex-row flex-col lg:items-center justify-around px-5  w-full h-svh absolute top-0 right-0 z-50 bg-black/90 backdrop-blur-sm  text-white"
+      className=" flex lg:flex-row flex-col lg:items-center justify-around px-5  w-full h-svh fixed top-0 right-0 z-50 bg-black/90 backdrop-blur-sm  text-white"
     >
       <button
         onClick={() => setNavMenu(false)}
