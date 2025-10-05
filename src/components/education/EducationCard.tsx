@@ -15,10 +15,16 @@ export default function EducationCard({ className, education }: Props) {
         className
       )}
     >
-      <Title className=" font-manrope font-bold">{education.name}</Title>
+      <Title className=" font-manrope font-bold motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-blur-out-0 motion-ease-spring-smooth motion-delay-1500 will-change-[transform,filter] backface-hidden translate-z-0 ">
+        {education.name}
+      </Title>
       <div className="w-[1px] h-[100px] bg-black mx-3  top-10   rotate-0" />
-      <Title className=" font-manrope">{education.schoolname}</Title>
-      <Title className=" font-manrope">{education.date}</Title>
+      <Title className=" font-manrope  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
+        {education.schoolname}
+      </Title>
+      <Title className=" font-manrope  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
+        {education.date}
+      </Title>
     </div>
   );
 }
