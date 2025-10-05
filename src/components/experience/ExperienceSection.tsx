@@ -12,7 +12,7 @@ export default function ExperienceSection() {
             <a
               href="https://www.addinn-group.com/"
               target="_blank"
-              className=" hover:underline  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-blur-out-0 motion-ease-spring-smooth motion-delay-1500"
+              className=" hover:underline will-change-[transform,filter] backface-hidden translate-z-0  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-blur-out-0 motion-ease-spring-smooth motion-delay-1500"
             >
               Addinn,
             </a>
