@@ -4,7 +4,7 @@ import Lenis from "@studio-freight/lenis";
 export default function LenisScroll() {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 2.9, // scroll speed
+      duration: 1, // scroll speed
       smoothWheel: true,
     });
 
