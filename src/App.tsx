@@ -11,7 +11,7 @@ import Header from "./components/Header/Header";
 import Logo from "./components/Header/Logo";
 
 import Menu from "./components/Header/Menu";
-import { Analytics } from "@vercel/analytics/next";
+
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -22,7 +22,6 @@ function App() {
 
   return (
     <>
-      <Analytics />
       <AnimatePresence mode="wait">{loading && <Preloader />}</AnimatePresence>
       {!loading && (
         <div className="flex flex-col h-svh w-full">
