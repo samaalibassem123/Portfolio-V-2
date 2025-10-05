@@ -27,7 +27,6 @@ function App() {
         <div className="flex flex-col h-svh w-full">
           <Header>
             <Logo />
-
             <Menu />
           </Header>
           <AnimatePresence mode="wait">
