@@ -30,6 +30,9 @@ const techStack: TechStack[] = [
   { label: "Git", url: "https://git-scm.com" },
   { label: "GitHub", url: "https://github.com" },
   { label: "GitLab", url: "https://gitlab.com" },
+  { label: "Pandas", url: "https://pandas.pydata.org/" },
+  { label: "Scikit-learn", url: "https://scikit-learn.org/" },
+  { label: "Streamlit", url: "https://streamlit.io/" },
 ];
 const languages: Language[] = [
   { label: "C", url: "https://en.cppreference.com/w/c" },
@@ -59,7 +62,7 @@ export default function Footer() {
     <div className=" flex flex-col sm:h-[150px] w-full">
       <NavMenu selectedMenu={selectedMenu} setSelectedMenu={setSelectedMenu} />
 
-      <div className="flex gap-4 p-7   w-full overflow-auto  items-center lg:justify-center">
+      <div className="flex gap-2 p-7    w-full overflow-auto  items-center xl:justify-center ">
         {selectedMenu === "Technologies" &&
           techStack.map((tech) => (
             <SmallLabel

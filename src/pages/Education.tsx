@@ -1,5 +1,6 @@
 import EducationCard from "../components/education/EducationCard";
 import Background2 from "../components/ui/Background2";
+import LenisScroll from "../components/ui/LenisScroll";
 import PageContainer from "../components/ui/PageContainer";
 import PageTitle from "../components/ui/PageTitle";
 import PageTransition from "../components/ui/PageTransition";
@@ -21,6 +22,8 @@ const educations: Education[] = [
 export default function Education() {
   return (
     <div>
+      <LenisScroll />
+
       <PageTransition>Education</PageTransition>
       <Background2 />
       <PageContainer>

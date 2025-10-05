@@ -17,3 +17,18 @@
 .loader{
   @apply flex items-center justify-center bg-black backdrop-blur-3xl z-60 absolute top-0 left-0 w-full h-svh text-white font-manrope sm:text-9xl text-7xl ;
 }
+
+
+@keyframes scroll-bar {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-bar {
+  animation: scroll-bar 3s linear infinite;
+}
