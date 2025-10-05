@@ -11,7 +11,7 @@ export default function Home() {
       <a
         href="https://github.com/samaalibassem123"
         target="_blank"
-        className=" absolute underline   lg:inline-block hidden bottom-1/6 -rotate-90 hover:-rotate-0   backdrop-blur-2xl  select-all selec p-7 px-4 z-50  cursor-pointer  w-fit transition-transform tracking-wider text-black font-manrope "
+        className=" absolute underline   lg:inline-block hidden bottom-1/6 -rotate-90 hover:-rotate-0   backdrop-blur-2xl  select-all selec p-7 px-4 z-40  cursor-pointer  w-fit transition-transform tracking-wider text-black font-manrope "
       >
         Follow Me On Github
       </a>
