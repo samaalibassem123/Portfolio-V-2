@@ -17,16 +17,16 @@ export default function ExperienceSection() {
               Addinn,
             </a>
             <br />
-            <span className="motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600">
+            <span className="motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
               Angular developer
             </span>
           </Title>
-          <span className=" text-sm font-manrope motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600">
+          <span className=" text-sm font-manrope motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
             Tunis, Northern Urban Centre <br /> July 2025 – Aug 2025 (2 Months)
           </span>
         </div>
         {/*Right side */}
-        <div className=" sm:flex-1 p-2 bg-white motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1700">
+        <div className=" sm:flex-1 p-2 bg-white motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1700 will-change-[transform,filter] backface-hidden translate-z-0">
           <ul className=" list-disc font-manrope space-y-3 text-lg/8 tracking-wide">
             <li>
               Built and enhanced user interfaces using{" "}
@@ -64,21 +64,21 @@ export default function ExperienceSection() {
             <a
               href="https://www.visionage-vfx.com/"
               target="_blank"
-              className=" hover:underline  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1500"
+              className=" hover:underline  motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1500 will-change-[transform,filter] backface-hidden translate-z-0"
             >
               Vision Age VFX,
             </a>
             <br />
-            <span className="motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600">
+            <span className="motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
               React developer
             </span>
           </Title>
-          <span className=" text-sm font-manrope motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600">
+          <span className=" text-sm font-manrope motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1600 will-change-[transform,filter] backface-hidden translate-z-0">
             Remote <br /> Sept 2025 – Nov 2025 (2 Months)
           </span>
         </div>
         {/*Right side */}
-        <div className=" flex-1 p-2 bg-white motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1700 ">
+        <div className=" flex-1 p-2 bg-white motion-translate-x-in-[-5%] motion-translate-y-in-[0%]  motion-blur-in-[5px] motion-ease-spring-smooth motion-delay-1700 will-change-[transform,filter] backface-hidden translate-z-0">
           <ul className=" list-disc font-manrope space-y-3 text-lg/8 tracking-wide">
             <li>
               Developed a professional networking web application inspired by
