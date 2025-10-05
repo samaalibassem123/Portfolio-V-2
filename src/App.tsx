@@ -11,6 +11,7 @@ import Header from "./components/Header/Header";
 import Logo from "./components/Header/Logo";
 import DownLoadCv from "./components/Header/DownLoadCv";
 import Menu from "./components/Header/Menu";
+import LenisScroll from "./components/ui/LenisScroll";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+      <LenisScroll />
       <AnimatePresence mode="wait">{loading && <Preloader />}</AnimatePresence>
       {!loading && (
         <div className="flex flex-col h-svh w-full">
