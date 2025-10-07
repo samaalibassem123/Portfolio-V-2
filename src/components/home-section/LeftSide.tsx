@@ -37,7 +37,7 @@ export default function LeftSide({ className }: Props) {
           animate="visible"
         >
           <motion.div variants={AnimateJobName}>Software</motion.div>
-          <motion.div variants={AnimateJobName}>Developper</motion.div>
+          <motion.div variants={AnimateJobName}>Developer</motion.div>
         </motion.div>
       </Title>
     </div>
