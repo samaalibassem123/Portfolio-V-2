@@ -18,23 +18,50 @@ type LanguageSkill = {
 const Menu: string[] = ["Technologies", "programming language", "Languages"];
 
 const techStack: TechStack[] = [
+  // Frontend
   { label: "React", url: "https://react.dev" },
   { label: "Next.js", url: "https://nextjs.org" },
   { label: "Angular", url: "https://angular.dev" },
   { label: "TailwindCSS", url: "https://tailwindcss.com" },
   { label: "Shadcn/UI", url: "https://ui.shadcn.com" },
   { label: "PrimeNG", url: "https://primeng.org" },
+  { label: "Zustand", url: "https://zustand-demo.vercel.app/" },
+  { label: "RxJS", url: "https://rxjs.dev/" },
   { label: "Framer Motion", url: "https://motion.dev/" },
   { label: "GSAP", url: "https://gsap.com/" },
-  { label: "Supabase", url: "https://supabase.com" },
-  { label: "MySQL (SQL)", url: "https://www.mysql.com" },
-  { label: "Git", url: "https://git-scm.com" },
-  { label: "GitHub", url: "https://github.com" },
-  { label: "GitLab", url: "https://gitlab.com" },
+  { label: "TanStack Query", url: "https://tanstack.com/query/latest" },
+  { label: "TanStack Table", url: "https://tanstack.com/table/latest" },
+  // Backend
+  { label: "Node.js", url: "https://nodejs.org/" },
+  { label: "FastAPI", url: "https://fastapi.tiangolo.com/" },
+  { label: "SQLAlchemy", url: "https://www.sqlalchemy.org/" },
+  { label: "Alembic", url: "https://alembic.sqlalchemy.org/" },
+  { label: "Prisma", url: "https://www.prisma.io/" },
+  { label: "LangChain", url: "https://www.langchain.com/" },
+  { label: "LangGraph", url: "https://langchain-ai.github.io/langgraph/" },
+  { label: "Ollama", url: "https://ollama.ai/" },
+  // Data & BI
   { label: "Pandas", url: "https://pandas.pydata.org/" },
   { label: "Scikit-learn", url: "https://scikit-learn.org/" },
   { label: "Streamlit", url: "https://streamlit.io/" },
-  { label: "LangChain", url: "https://www.langchain.com/" },
+  { label: "Power BI", url: "https://powerbi.microsoft.com/" },
+  {
+    label: "SSIS",
+    url: "https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services",
+  },
+  // Databases
+  { label: "PostgreSQL", url: "https://www.postgresql.org/" },
+  { label: "MySQL", url: "https://www.mysql.com" },
+  { label: "SQL Server", url: "https://www.microsoft.com/en-us/sql-server" },
+  { label: "MongoDB", url: "https://www.mongodb.com/" },
+  { label: "Oracle Database", url: "https://www.oracle.com/database/" },
+  { label: "Supabase", url: "https://supabase.com" },
+  // DevOps & Tools
+  { label: "Docker", url: "https://www.docker.com/" },
+  { label: "Git", url: "https://git-scm.com" },
+  { label: "GitHub", url: "https://github.com" },
+  { label: "GitLab", url: "https://gitlab.com" },
+  { label: "Figma", url: "https://www.figma.com/" },
 ];
 const languages: Language[] = [
   { label: "C", url: "https://en.cppreference.com/w/c" },
